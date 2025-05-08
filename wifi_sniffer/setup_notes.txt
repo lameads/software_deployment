@@ -1,0 +1,1 @@
+This directory contains the most recent build of the wifi_sniffer_deploy_v19, which takes command line arguments like so: sniff --nic wlan0 1,2,3 --nic wlan1 4,5,6 ... up to 8 NICs. Upate the send_wifi_stats.sh script to choose which NICs to listen on and which channels for each NIC.
